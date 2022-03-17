@@ -4,7 +4,7 @@ let numeroUsuario = ""
 
 let boolean = false
  function simon(){
- 
+ console.log(numeroRandom)
 
     do {
         numeroRandom = ""
@@ -34,5 +34,5 @@ let boolean = false
         alert("Mal, Prueba otra vez ")
         }
     }while (boolean != true);
-     alert("Nivel conseguido");
+     window.location.hred = "https://www.google.es"
  }
