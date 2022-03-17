@@ -1,0 +1,31 @@
+html,body{
+    width: "99,9%";
+    height: 97%;
+}
+body{
+    background-color: #d3c3f4;
+    border: solid #8c52ff 15px;
+}
+
+#startbutton{
+    cursor: pointer;
+        border: 6px solid #9823eb;
+        background-color: black;
+        width: 200px;
+        color: #1dfc00;
+        font-size: 4em;
+        box-shadow: 0 6px 6px rgb(0, 0, 0);
+        font-family: 'HortaRegular';
+        cursor: pointer;
+
+}
+
+#startbutton:hover{
+    background-image: linear-gradient(90deg, rgb(0, 77, 13) 0%, rgb(22, 46, 0) 49%, rgb(0, 92, 3) 80%, rgb(0, 160, 5) 100%);
+    animation:slidebg 2s linear infinite;
+}
+
+#image{
+    text-align: center;
+    background-size: cover;
+}

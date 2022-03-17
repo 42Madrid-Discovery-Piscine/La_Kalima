@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta author="">
+    <title>Document</title>
+    <script src="p5.js"></script>
+    <script src="p5.sound.js"></script>
+    <script src="sketch.js"></script>
+
+</head>
+
+<body>
+    <div>
+        <script>
+            var a, b;
+            var fondoPantalla;
+            var img, img2;
+            function preload() {
+                // preload() runs once
+                img = loadImage("fondo.png");
+                img2 = loadImage("icono.png");
+            }
+            function distancia(mouseX, mouseY, circleX, circleY) {
+                return Math.floor(
+                    Math.sqrt(Math.pow(mouseX - circleX, 2) + Math.pow(mouseY - circleY, 2))
+                );
+            }
+            function setup() {
+                img.loadPixels();
+                createCanvas(windowWidth, windowHeight);
+                a = random() * windowWidth - 50;
+                b = random() * windowHeight - 80;
+                fondoPantalla = loadImage("fondo.png");
+                crearCirculo(a, b);
+            }
+            function draw() {
+                background(img);
+                frameRate(30);
+                rect(0, windowHeight - 60, windowWidth, 50);
+                fill(0, 0, 0);
+                //console.log(distancia(mouseX, mouseY, a, b));
+                if (distancia(mouseX, mouseY, a, b) < 500 && distancia(mouseX, mouseY, a, b) > 300) {
+                    fill("#8C52FF");
+                } else if (distancia(mouseX, mouseY, a, b) < 300 && distancia(mouseX, mouseY, a, b) > 150) {
+                    fill(0, 102, 204);
+                } else if (distancia(mouseX, mouseY, a, b) < 150 && distancia(mouseX, mouseY, a, b) > 60) {
+                    fill(0, 204, 204);
+                } else if (distancia(mouseX, mouseY, a, b) < 60) {
+                    fill("#7ED957");
+                }
+            }
+            ;
+
+            function mouseClicked() {
+                if (distancia(mouseX, mouseY, a, b) < 60) {
+                    noLoop();
+                    //   background(img2);
+                    setTimeout(dormir, 5000);
+                    function dormir() {
+                        window.location.href = "prueba.html";
+                    }
+
+                }
+            }
+            function crearCirculo(x, y) {
+                fill(0, 255, 255, 0);
+                //stroke(255);
+                circle(x, y, 100);
+            }
+
+
+        </script>
+    </div>
+
+
+</body>
+
+</html>

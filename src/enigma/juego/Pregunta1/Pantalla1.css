@@ -1,0 +1,49 @@
+html,body{
+    width: "99,9%";
+    height: 97%;
+}
+body{
+    background-color: #d3c3f4;
+    border: solid #8c52ff 15px;
+}
+.general{
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.Titulo{
+    color: greenyellow;
+    text-shadow: green 0px 0px 10px;
+    font-family: "horta";
+    font-size: 65px;
+}
+#respuestaDada{
+    border: solid greenyellow 3px;
+    font-family: monospace;
+    text-align: center;
+    background-color: yellowgreen;
+    color: white;
+}
+#respuestaDada:focus{
+    background-color: green;
+}
+button{
+    border: solid greenyellow 3px;
+    background-color: yellowgreen;
+    color: white;
+
+}
+button:hover{
+    background-color: green;
+}
+.enigma{
+    font-family: monospace;
+    border: solid #8c52ff 4px;
+    background-color: black;
+    padding-top: 10%;
+    height: 250px;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}

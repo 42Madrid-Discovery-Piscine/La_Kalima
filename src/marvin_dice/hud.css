@@ -1,0 +1,32 @@
+#titulo {
+    color: #7ed957;
+    font-size: 40px;
+}
+
+td{
+    color: #7ed957;
+    font-size: 100px;
+    padding: 25px;
+    border-style: solid;
+
+    
+}
+body{
+    background-color: #8c52ff;
+}
+table{
+    border-collapse: collapse;
+
+}
+button:hover{
+    background-color: plum;
+    color: blueviolet;
+}
+button{
+    font-size: 100px;
+}
+.invisible{
+  display: none;
+}
+
+/* poder que cuando se pulse se nga el logo */
