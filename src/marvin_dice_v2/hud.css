@@ -1,0 +1,46 @@
+#titulo {
+    color: #7ed957;
+    font-size: 40px;
+}
+
+td{
+    color: #7ed957;
+    font-size: 100px;
+    padding: 25px;
+    border-style: solid;
+
+    
+}
+body{
+    background-color: #8c52ff;
+}
+table{
+    border-collapse: collapse;
+
+}
+button:hover{
+    background-color: plum;
+    color: blueviolet;
+}
+button{
+    font-size: 100px;
+}
+.invisible{
+  display: none;
+}
+button:disabled {
+    background-color: plum;
+    color: black;
+}
+.empezar{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+}
+/* poder que cuando se pulse se nga el logo */
