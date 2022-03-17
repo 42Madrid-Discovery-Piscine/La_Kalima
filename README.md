@@ -4,6 +4,11 @@
 
 ## Autores:
 
+- LuciaFranco:
+	- [GitHub](https://github.com/LuciaFranco)
+	- [LinkedIn](https://www.linkedin.com/in/luc%C3%ADa-franco-moreno-0036571ba)
+	- [Correo](luciafrancomoreno@gmail.com)
+
 - salakomg:
 	- [GitHub](https://github.com/salakomg)
 	- [Correo](salakkorte@gmail.com)
@@ -31,7 +36,15 @@
 	- [GitHub](https://github.com/ChristianGPGS)
 
 - Andrea31-21:
-	-[GitHub](https://github.com/Andrea31-21)
+	- [GitHub](https://github.com/Andrea31-21)
+
+- LuciaFranco:
+	- [GitHub](https://github.com/LuciaFranco)
+	- [LinkedIn](https://www.linkedin.com/in/luc%C3%ADa-franco-moreno-0036571ba)
+	- [Correo](luciafrancomoreno@gmail.com)
+
+- Pancho:
+	- [Gmail](franuriel144@gmail.com)
 
 - JuanVRobles3:
 	- [GitHub](https://github.com/JuanVRobles3)
