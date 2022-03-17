@@ -20,6 +20,16 @@
 	- [GitHub](https://github.com/Valero004)
 	- [Gmail](ana.valero.sanchez.avs@gmail.com)
 
+- luisengoo:
+	- [GitHub](https://github.com/luisengoo)
+	- [Correo](lagunaluis8@hotmail.com)
+
+- ByCmd11:
+	- [GitHub](https://github.com/ByCmd11)
+
+- ChristianGPGS:
+	- [GitHub](https://github.com/ChristianGPGS)
+
 - JuanVRobles3:
 	- [GitHub](https://github.com/JuanVRobles3)
 	- [Gmail](juanvrobles3@gmail.com)
