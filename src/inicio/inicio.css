@@ -3,8 +3,10 @@ html,body{
     height: 97%;
 }
 body{
-    background-color: #d3c3f4;
-    border: solid #8c52ff 15px;
+    background-image: url("images/kalima.jpg");
+    /* border: solid #8c52ff 15px; */
+	background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #startbutton{
