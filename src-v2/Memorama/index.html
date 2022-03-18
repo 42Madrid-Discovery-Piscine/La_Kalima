@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1,shrink-to-fit=no">
+        <meta name="description" content="Jugar memorama en línea">
+        <title > Juego De Cartas</title>
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/horta" type="text/css"/>
+        <link rel="icon" type="image/png" href="./images/favicon-16x16.png">
+        <title>Memorama</title>
+    </head>
+    <body style="background-color: #d3c3f4;">
+        <main role="main" class="container-fluid" id="app">
+            <div class="row" >
+                <div class="col-12">
+                    
+                    <h1 class="text-center" style="color: #7ed957; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 100px;">Memory</h1>
+                    <p>
+                        <span class="h5" style="color: red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Intentos: </span>
+                        {{intentos}}/{{MAXIMOS_INTENTOS}}&nbsp;<span class="h5" style="color: red; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Aciertos:
+                        </span> {{aciertos}}
+                        <br><a @click="mostrarCreditos" href="#" style="color: #8c52ff;">Manual de usuario</a>
+                    </p>
+                </div>
+            </div>
+            <div v-for="(fila, indiceFila) in memorama" :key="indiceFila"
+                class="row">
+                <div :key="indiceFila+''+indiceImagen" class="col-3"
+                    v-for="(imagen, indiceImagen) in fila">
+                    <div class="mb-3" >
+                        <img @click="voltear(indiceFila, indiceImagen)"
+                            :class="{'girar': imagen.mostrar}"
+                            :src="(imagen.mostrar ? imagen.ruta :
+                            NOMBRE_IMAGEN_OCULTA)" class="card-img-top img-fluid
+                            img-thumbnail" style="border-color: #8c52ff; border-width: 10px;">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="px-2 py-2 fixed-bottom bg-success text-white">
+            <span>Programado por la  calite de 42(Tomas Salcedo,Diego Eloy,Aitor Tercero,Christian Gallego)
+                <a class="text-white" href="https://www.42madrid.com/" target="blank"> Ir a la pagina web</a>
+            </span>
+        </footer>
+        <script src="./js/sweetalert2.all.min.js"></script>
+        <script src="./js/vue.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
