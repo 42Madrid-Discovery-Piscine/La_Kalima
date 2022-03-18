@@ -161,7 +161,7 @@ function Player(x, y) {
     this.x = x;
     this.y = y;
     const ace = 6;
-    var velocity = 0;
+    var velocity = -10;
     var gravity = 0.3;
     this.score = 0;
     this.width = 2.3 / 1.5 * scale
@@ -190,8 +190,10 @@ function Player(x, y) {
         }
     }
     this.isColliding = function(_obstacule) {
+		let offset = 0.2;
         if(this.x + this.width > _obstacule.boundingBox.x && _obstacule.boundingBox.x + _obstacule.width > this.width){
-            if(this.y < _obstacule.boundingBox.y + _obstacule.height && this.height + this.y > _obstacule.y){
+            if(this.y + this.width * offset < _obstacule.boundingBox.y + _obstacule.height &&
+				this.height + this.y - this.width * offset > _obstacule.y){
                 return true
             }
         } else {
