@@ -13,7 +13,7 @@ var botonComprobar
 function mostrarCartas() {
 
     randomMuestra = String(numeroRandomFijo).charAt(i)
-    console.log(randomMuestra)
+    // console.log(randomMuestra)
 
     function coloritos() {
         //alert(randomMuestra)
@@ -32,7 +32,7 @@ function mostrarCartas() {
 
 function aleatorioIndi() {
 
-    randomSolo = ("" + Math.floor(Math.random() * (9) + 1))
+    randomSolo = ("" + Math.floor(Math.random() * (7) + 1))
 
     numeroRandom += randomSolo
 
@@ -46,7 +46,7 @@ function generarAleatorio() {
 
 
 
-    for (let index = 0; index < 9; index++) {
+    for (let index = 0; index < 7; index++) {
 
 
         aleatorioIndi();
@@ -55,7 +55,7 @@ function generarAleatorio() {
     }
 
     i = 0
-    for (let index = 0; index < 9; index++) {
+    for (let index = 0; index < 7; index++) {
 
         setTimeout(mostrarCartas, 1000 * index);
 
@@ -67,7 +67,7 @@ function generarAleatorio() {
 
 
 
-    console.log(numeroRandomFijo)
+    // console.log(numeroRandomFijo)
 }
 
 generarAleatorio();
@@ -79,19 +79,19 @@ function pulsarBoton(valor) {
     //generarAleatorio();
 
 
-    if (numerosPulsados == 8) {
+    if (numerosPulsados == 7 - 1) {
         document.getElementById('btnComprobar').classList.remove('invisible')
         document.getElementById('btnComprobar').classList.add('visible')
     }
 
 
-    if (numerosPulsados < 9) {
+    if (numerosPulsados < 7) {
 
         numeroUsuario += "" + valor
         numerosPulsados++
 
-        console.log(numeroUsuario)
-        console.log(numerosPulsados);
+        // console.log(numeroUsuario)
+        // console.log(numerosPulsados);
 
 
 
@@ -101,7 +101,7 @@ function pulsarBoton(valor) {
 
 function comprobar() {
 
-    if (numerosPulsados == 9) {
+    if (numerosPulsados == 7) {
 
         if (numeroUsuario == numeroRandomFijo) {
             //alert("NIVEL SUPERADO")
@@ -155,4 +155,4 @@ function habilitarbotones() {
 
 deshabilitarbotones()
 
-setTimeout(habilitarbotones, 9000)
+setTimeout(habilitarbotones, 7000)
