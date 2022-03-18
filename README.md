@@ -12,6 +12,11 @@
 	- [LinkedIn](https://www.linkedin.com/in/luc%C3%ADa-franco-moreno-0036571ba)
 	- [Correo](luciafrancomoreno@gmail.com)
 
+- Selena Carrasco:
+  - [GitHub](https://github.com/Selenacs362)
+  - [LinkedIn](https://www.linkedin.com/in/selenacs)
+  - [Correo](selenacarrasco362@gmail.com)
+
 - salakomg:
 	- [GitHub](https://github.com/salakomg)
 	- [Correo](salakkorte@gmail.com)
@@ -48,6 +53,45 @@
 
 - Pancho:
 	- [Gmail](franuriel144@gmail.com)
+
+- Javier Mateos:
+	- [github](https://www.github.com/cabrasky)
+	- [Web](https://javiermateos.ddns.net/)
+
+- Mario:
+	- [Github](https://github.com/MarioMunozBarroso)
+	- [Gmail](MunozBarrosoMario@gmail.com)
+
+- Diego Veguilla García:
+  - [GitHub](https://github.com/DiegoVeguilla)
+
+- Cesar:
+	- [Instagram](https://www.instagram.com/c3_kay/)
+
+- Victoria:
+  - [GitHub](https://github.com/Victoria-romero)
+  - [Correo](victoriar5504@gmail.com)
+
+- Diego Vicioso:
+  - [GitHub](https://github.com/DonVicioso)
+  - [Twitter](https://www.linkedin.com/in/diego-vicioso-519280223)
+
+- AlejandroRAE:
+	- [GitHub](https://github.com/AlejandroRAE)
+	- [Gmail](alejandroant101199@gmail.com)
+
+- Diego:
+  - [Instagram](_diieguitoo)
+
+- Christiangc4:
+	- [GITHUB](https://github.com/Christiangc4)
+	- [Gmail](christian.cgc4@gmail.com)
+	- [Instagram](https://instagram.com/chhriiiss_?utm_medium=copy_link)
+
+- Tomás Salcedo:
+	- [Github](https://github.com/tomassm11tomassm11)
+	- [Instagram](https://instagram.com/tomaas.sm?utm_medium=copy_link)
+	- [Correo](tomassalcedo43@gmail.com)
 
 - JuanVRobles3:
 	- [GitHub](https://github.com/JuanVRobles3)
