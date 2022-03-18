@@ -23,9 +23,8 @@ function validacion(respuestaDada) {
         document.body.style.backgroundImage = "url('images/6.jpg')";
         document.body.style.backgroundRepeat= "no-repeat";
         document.body.style.backgroundSize= "cover";
-        setTimeout(final, 3000);
-        function final() {
-            window.location.href = "https://www.google.es"
-        }
+        setTimeout(() => {
+			window.location.href = "https://www.google.es"
+		}, 3000);
     }
 }
