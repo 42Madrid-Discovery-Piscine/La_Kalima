@@ -2,6 +2,9 @@
 
 <img src="./res/img/logo.jpg" style="width: 200px">
 
+## Jugar ahora:
+[Juega ahora](https://42madrid-discovery-piscine.github.io/La_Kalima/)
+
 ## Autores:
 
 - LuciaFranco:
