@@ -5,6 +5,7 @@ img.card-img-top {
     max-height: 250px !important;
     max-width: 250px !important;
     background-color: rgba(0,0,0,.4);
+    text-align: center;
     
 
     
@@ -12,6 +13,7 @@ img.card-img-top {
 
 img.card-img-top.girar {
     animation: fadein 2s;
+    text-align: center;
 }
 
 @keyframes fadein {
@@ -25,4 +27,18 @@ img.card-img-top.girar {
 body {
   background-color: blueviolet;
   padding-bottom: 70px;
+  border: solid #8c52ff 15px;
+  margin: 0.2%;
+
+  
+}
+p{
+    border: 6px solid #9823eb;
+    text-align: center;
+    color: #1dfc00;
+    font-size: 4em;
+    box-shadow: 0 6px 6px rgb(0, 0, 0);
+    font-family: 'HortaRegular';
+    
+    
 }
