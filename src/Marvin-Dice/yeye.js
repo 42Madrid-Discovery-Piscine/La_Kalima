@@ -13,7 +13,6 @@ var botonComprobar
 function mostrarCartas() {
 
     randomMuestra = String(numeroRandomFijo).charAt(i)
-    // console.log(randomMuestra)
 
     function coloritos() {
         //alert(randomMuestra)
@@ -44,8 +43,6 @@ const myTimeout = setTimeout(aleatorioIndi, 3000);
 function generarAleatorio() {
     numeroRandom = ""
 
-
-
     for (let index = 0; index < 7; index++) {
 
 
@@ -59,15 +56,10 @@ function generarAleatorio() {
 
         setTimeout(mostrarCartas, 1000 * index);
 
-
     }
 
     numeroRandomFijo = numeroRandom;
     contador++;
-
-
-
-    // console.log(numeroRandomFijo)
 }
 
 generarAleatorio();
@@ -89,11 +81,6 @@ function pulsarBoton(valor) {
 
         numeroUsuario += "" + valor
         numerosPulsados++
-
-        // console.log(numeroUsuario)
-        // console.log(numerosPulsados);
-
-
 
     }
 

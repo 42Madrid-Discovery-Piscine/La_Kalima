@@ -1,86 +1,81 @@
-        #titulo {
-            color: #7ed957;
-            font-size: 40px;
-        }
-        
-        h1 {
-            font-family: Horta;
-        
-        }
-        
-        td {
-            color: #7ed957;
-            font-size: 100px;
-            padding: 25px;
-            border-style: solid;
-            background-color: #8c52ff;
-            border: #7ed957 7px solid;
-        }
-        
-        body {
-            background-color: #d3c3f4;
-            border: #8c52ff 15px solid;
-            position: absolute;
-            width: 97%;
-            height: 95%;
-            margin-left: 1%;
-            margin-right: 1%;
-            margin-bottom: 1%;
-        }
-        
-        table {
-            border-collapse: collapse;
-            
-        }
-        
-        button:hover {
-            background-color: plum;
-            color: blueviolet;
-        }
-        
-        button {
-            font-size: 100px;
-        }
+#titulo {
+	color: #7ed957; 
+	font-size: 80px;
+	font-family: Horta;
+    text-shadow: green 0px 0px 10px;
+}
 
-        .numeros{
-            border-radius: 45%;
-            background-color: #d3c3f4;
-        }
-        
-        .invisible {
-            display: none;
-        }
 
-        .visible{
-            font-family: Horta;
-            background-color: #8c52ff;
-        }
-        
-        button:disabled {
-            background-color: plum;
-            color: black;
-        }
-        
-        .empezar {
-            margin-left: auto;
-            margin-right: auto;
-            background-color: #7ed957;
-            /* Green */
-            border: none;
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-        }
-        
-        .centrarBtn {
-            width: 50px;
-            height: 50px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            margin: -25px 0 0 -25px;
-        }
-        /* poder que cuando se pulse se nga el logo */
+td {
+	color: #7ed957;
+	font-size: 100px;
+	padding: 25px;
+	border-style: solid;
+	background-color: #8c52ff;
+	border: #7ed957 7px solid;
+}
+
+body {
+	background-color: #d3c3f4;
+	border: #8c52ff 15px solid;
+	position: absolute;
+	width: 97%;
+	height: 95%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 1%;
+}
+
+table {
+	border-collapse: collapse;
+	
+}
+
+button:hover {
+	background-color: plum;
+	color: blueviolet;
+}
+
+button {
+	font-size: 100px;
+}
+
+.numeros{
+	border-radius: 45%;
+	background-color: #d3c3f4;
+}
+
+.invisible {
+	display: none;
+}
+
+.visible{
+	font-family: Horta;
+	background-color: #8c52ff;
+}
+
+button:disabled {
+	background-color: plum;
+	color: black;
+}
+
+.empezar {
+	border: none;
+	padding: 50% 30%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 60px;
+	color: white;
+	background-color: #8c52ff;
+	font-family: Horta;
+}
+
+.centrarBtn {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	left: 46.5%;
+	top: 50%;
+}
+/* poder que cuando se pulse se nga el logo */
