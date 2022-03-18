@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fin</title>
+    <link rel="stylesheet" href="./fin.css">
+</head>
+<body>
+    <script>
+        var innerHTML = `
+        <table>
+            <tr>
+                <td>
+                    <a href='./metropolis.html'>
+                        <div class="select">
+                            <p>.</p>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href='./wakanda.html'>
+                        <div class="select">
+                            <p>.</p>
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href='./atlantis.html'>
+                        <div class="select">
+                            <p>.</p>
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>`
+
+        onload = function(){
+            // var video = document.getElementById("video")
+            // video.onplay = function(){
+            //     setTimeout(() => {
+            //         document.body.innerHTML = innerHTML
+            //     }, 18*1000);
+            // }
+			document.getElementById('video').addEventListener('ended',myHandler,false);
+			function myHandler(e) {
+				setTimeout(() => {
+					document.body.innerHTML = innerHTML
+				}, 2500);
+			}
+        }
+        
+        
+        
+    </script>
+    <video src="./video-output-2FE85327-03CD-47C5-8AFC-114A93336BB1.mov" controls id="video" style="width: 100%;"></video>
+    
+</body>
+<script>
+
+</script>
+</html>
