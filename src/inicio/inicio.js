@@ -1,3 +1,3 @@
 function iniciar(){
-window.location.href = "./src-v2/Enigma/Pantalla1.html"
+window.location.href = "../Enigma/Pantalla1.html"
 }
